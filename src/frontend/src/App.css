@@ -1,0 +1,50 @@
+:root {
+  --inputsMargin: 10px;
+  --colorBackground: grey;
+  --colorMain: rgb(52, 183, 241);
+  --colorSecondary: rgb(37, 211, 102);
+
+  --mainPadding: 10px;
+}
+
+#root {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flexColumn {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+h1,
+h2,
+h3 {
+  margin-top: 0;
+}
+
+input,
+button {
+  margin: var(--inputsMargin);
+  border-radius: 15px;
+}
+
+h1 {
+  color: var(--colorMain);
+}
+
+h2,
+h3 {
+  color: var(--colorSecondary);
+}
+
+input {
+  width: 200px;
+  height: 30px;
+  text-align: center;
+}

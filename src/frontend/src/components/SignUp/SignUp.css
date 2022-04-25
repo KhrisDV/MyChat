@@ -1,0 +1,8 @@
+button {
+  align-self: end;
+  width: 85px;
+}
+
+body {
+  background-image: url(/src/images/fondo.png);
+}
